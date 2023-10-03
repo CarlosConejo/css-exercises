@@ -32,3 +32,66 @@ input {
   justify-content: space-between;
   flex: 1;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 12;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  background-color: lightgray;
+  align-items: flex-end;
+}
+
+.left_links, .right_links {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+}
+
+.left_links {
+  justify-content: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.right_links {
+  justify-content: flex-end;
+  display: flex;
+  gap: 10px;
+}
+
+.left-links, .right-links {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-links {
+  justify-content: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+  justify-content: flex-end;
+  display: flex;
+  gap: 10px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: grey;
+}
+
+.page_format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
